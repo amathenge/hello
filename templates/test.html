@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>This is a test only</title>
+</head>
+
+<form action="/test" method="POST">
+<input type="text" id="mytext" name="mytext">
+<button type="submit">Submit</button>
+</form>
+<div>
+<span>You typed: </span><span>{% if item %}{{ item }}{% endif %}</span>
+</div>
+</html>
